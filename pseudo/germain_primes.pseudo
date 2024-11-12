@@ -1,0 +1,17 @@
+output "enter min range (2 up 1000000)"
+while(1)
+input Ni
+if (Ni<2 || Ni>1000000) {
+    output "Erorr!!! input  number with respect to limits"
+}
+else
+    break
+mr= 1000000 + Ni
+output " enter max range (Ni up to mr)"
+while(1)
+input Nf
+if (Ni>Nf || Nf>mr) {
+    output "Erorr!!! input number with respect to limits "
+}
+else 
+    break
