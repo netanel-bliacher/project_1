@@ -1,0 +1,20 @@
+while 1 do:
+    output "The menu:"
+    output "0. Exit."
+    output "1. Max Germain primes in range."
+    output "2. Dates and updates"
+    input choise
+    if (choise = 0) {
+        output "You chose to end this program, bie bie"
+        break
+    }
+    if (choise = 1) {
+        output "You chose max Germain primes in range, bie bie"
+    }
+    if (choise = 2) {
+        output "You chose Dates and updates, bie bie"    
+    }
+    else{
+        output "Your choose is incorrect. Put attention on allow choises from menu!!!"
+    }
+    
